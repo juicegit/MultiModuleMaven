@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                    http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+    <bean id="weatherController"
+          class="org.sonatype.mavenbook.web.WeatherController">
+        <property name="weatherService" ref="weatherService"/>
+        <property name="weatherDao" ref="weatherDao" />
+    </bean>
+    <bean id="historyController"
+          class="org.sonatype.mavenbook.web.HistoryController">
+        <property name="weatherDao" ref="weatherDao"/>
+        <property name="locationDao" ref="locationDao"/>
+
+    </bean>
+
+    <bean id="locationController"
+          class="org.sonatype.mavenbook.web.LocationController">
+        <property name="locationDao" ref="locationDao"/>
+    </bean>
+
+    <bean id="runController" class="org.sonatype.mavenbook.web.RunController">
+        <property name="runDao" ref="runDao"/>
+    </bean>
+
+    <!-- you can have more than one handler defined -->
+    <bean id="urlMapping"
+          class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="urlMap">
+            <map>
+                <entry key="/weather.x">
+                    <ref bean="weatherController"/>
+                </entry>
+                <entry key="/history.x">
+                    <ref bean="historyController"/>
+                </entry>
+                <entry key="/locations.x">
+                    <ref bean="locationController"/>
+                </entry>
+                <entry key="/run.x">
+                    <ref bean="runController"/>
+                </entry>
+
+            </map>
+        </property>
+    </bean>
+    <bean id="velocityConfig"
+          class="org.springframework.web.servlet.view.velocity.VelocityConfigurer">
+        <property name="resourceLoaderPath" value="/WEB-INF/vm/"/>
+    </bean>
+    <bean id="viewResolver"
+          class="org.springframework.web.servlet.view.velocity.VelocityViewResolver">
+        <property name="cache" value="true"/>
+        <property name="prefix" value=""/>
+        <property name="suffix" value=".vm"/>
+        <property name="exposeSpringMacroHelpers" value="true"/>
+    </bean>
+</beans>

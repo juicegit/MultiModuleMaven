@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MultiModuleMaven.iml" filepath="$PROJECT_DIR$/MultiModuleMaven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-model/simple-model.iml" filepath="$PROJECT_DIR$/simple-model/simple-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-persist/simple-persist.iml" filepath="$PROJECT_DIR$/simple-persist/simple-persist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-weather/simple-weather.iml" filepath="$PROJECT_DIR$/simple-weather/simple-weather.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-webapp/simple-webapp.iml" filepath="$PROJECT_DIR$/simple-webapp/simple-webapp.iml" />
+    </modules>
+  </component>
+</project>
+

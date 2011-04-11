@@ -1,0 +1,16 @@
+<b>
+Weather History for: ${location.city}, ${location.region}, ${location.country}
+</b>
+<br/>
+#foreach( $weather in $weathers )
+<ul>
+<li>Temperature: ${weather.condition.temp}</li>
+<li>Condition: ${weather.condition.text}</li>
+<li>Humidity: ${weather.atmosphere.humidity}</li>
+<li>Pressure: ${weather.atmosphere.pressure}</li>
+<li>Rising: ${weather.atmosphere.risingDescription}</li>
+<li>Wind Chill: ${weather.wind.chill}</li>
+<li>Wind Speed: ${weather.wind.speed} Direction: ${weather.wind.directionDescription}</li>
+<li>Date: ${weather.date}</li>
+</ul>
+#end
