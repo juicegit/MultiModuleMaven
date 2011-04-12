@@ -31,10 +31,14 @@ public class RunDAOImplTest extends AbstractTransactionalDataSourceSpringContext
     }
 
     public void testFindByWeather() throws Exception {
-        final Weather weather = new Weather();
-        weather.setId(1);
-        final Run run = runDao.findByWeather(weather);
-        assertNotNull(run);
+        Weather weather = new Weather();
+        Run run = new Run();
+        run.setWeather(weather);
+        runDao.save(run);
+
+        final Run foundRun = runDao.findByWeather(weather);
+        assertNotNull(foundRun);
+        assertEquals(run, foundRun);
     }
 
     public void testAll() throws Exception {

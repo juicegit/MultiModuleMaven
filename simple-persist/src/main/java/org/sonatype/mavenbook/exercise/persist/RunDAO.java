@@ -17,4 +17,6 @@ public interface RunDAO {
     Run findByWeather(Weather weather);
 
     List<Run> all();
+
+    void save(Run run);
 }
