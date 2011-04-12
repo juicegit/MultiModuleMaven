@@ -46,7 +46,7 @@
                     org.hsqldb.jdbcDriver
                 </prop>
                 <prop key="hibernate.connection.url">
-                    jdbc:hsqldb:/projects/multimodulemaven/simplepersist/data/weather;shutdown=true
+                    jdbc:hsqldb:/projects/multimodulemaven/simple-persist/data/weather;shutdown=true
                 </prop>
                 <prop key="hibernate.connection.username">sa</prop>
                 <prop key="hibernate.connection.password"></prop>
