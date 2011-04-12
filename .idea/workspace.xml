@@ -2,119 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16087432-b4a0-4372-81a8-d857ef125a6e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/chq_justinh.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_1_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_attrs_1_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__avalon_framework_avalon_framework_4_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ibm_icu_icu4j_2_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_jta_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jaxen_jaxen_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jdom_jdom_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__logkit_logkit_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_1_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_io_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_3_2_5_ga.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_annotations_3_3_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_commons_annotations_3_3_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hsqldb_hsqldb_1_8_0_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_8_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_mavenbook_multi_simple_service_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_2_0_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_mock_2_0_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__oro_oro_2_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_6_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xmlParserAPIs_2_6_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xom_xom_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MultiModuleMaven.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/weather.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/weather.script" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-model/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-model/simple-model.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-model/src/main/java/org/sonatype/mavenbook/exercise/model/ClothingComfort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-model/src/main/java/org/sonatype/mavenbook/exercise/model/Run.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-model/src/main/java/org/sonatype/mavenbook/weather/model/Atmosphere.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-model/src/main/java/org/sonatype/mavenbook/weather/model/Condition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-model/src/main/java/org/sonatype/mavenbook/weather/model/Location.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-model/src/main/java/org/sonatype/mavenbook/weather/model/PressureState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-model/src/main/java/org/sonatype/mavenbook/weather/model/Weather.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-model/src/main/java/org/sonatype/mavenbook/weather/model/Wind.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-model/src/test/java/org/sonatype/mavenbook/weather/model/PressureStateTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-model/src/test/java/org/sonatype/mavenbook/weather/model/WindTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-persist/data/weather.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-persist/data/weather.script" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-persist/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-persist/simple-persist.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/exercise/persist/RunDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/exercise/persist/RunDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/weather/persist/LocationDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/weather/persist/LocationDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/weather/persist/LocationFinder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/weather/persist/WeatherDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/weather/persist/WeatherDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-persist/src/main/resources/applicationContext-persist.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-persist/src/main/resources/hibernate.cfg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-persist/src/test/java/org/sonatype/mavenbook/exercise/persist/RunDAOImplTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-persist/src/test/java/org/sonatype/mavenbook/weather/persist/WeatherDAOImplTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-persist/src/test/resources/test-applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-weather/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-weather/simple-weather.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-weather/src/main/java/org/sonatype/mavenbook/weather/WeatherService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-weather/src/main/java/org/sonatype/mavenbook/weather/YahooParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-weather/src/main/java/org/sonatype/mavenbook/weather/YahooRetriever.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-weather/src/main/resources/applicationContext-weather.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-weather/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-weather/src/test/java/org/sonatype/mavenbook/weather/WeatherServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/data/weather.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/data/weather.script" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/data_bkup/weather.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/data_bkup/weather.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/data_bkup/weather.script" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/simple-webapp.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/HistoryController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/LocationController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/RunController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/WeatherController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/src/main/resources/db/migration/V1_1__Prod_DB.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/src/main/resources/db/migration/V1_2__Run_Enh.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/LocationControllerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/history.vm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/locations.vm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/run.vm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/weather.vm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/weather-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/src/main/webapp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplepersist/data/weather.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplepersist/data/weather.script" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_annotations_3_3_0_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_annotations_3_3_0_GA.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_commons_annotations_3_3_0_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_commons_annotations_3_3_0_GA.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MultiModuleMaven.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -191,7 +81,7 @@
       <file leaf-file-name="WeatherDAOImpl.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/weather/persist/WeatherDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="4" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.8657407">
+            <state line="34" column="4" selection-start="1075" selection-end="1075" vertical-scroll-proportion="1.3357143">
               <folding />
             </state>
           </provider>
@@ -318,6 +208,11 @@
     </option>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="pluginUpdatePolicy" value="UPDATE" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -1261,7 +1156,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="settings.github" />
+    <property name="options.lastSelected" value="reference.settings.project.maven.repository.indices" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
@@ -1773,20 +1668,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1288" height="1032" extended-state="6" />
+    <frame x="-4" y="-4" width="1032" height="776" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39934355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42450765" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45896655" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42450765" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.2177243" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33576643" sideWeight="0.5754923" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1330604" sideWeight="0.54103345" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2733171" sideWeight="0.5754923" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18423747" sideWeight="0.54103345" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41684902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="96" y="96" width="1088" height="832" />
@@ -1920,7 +1815,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/weather/persist/WeatherDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="4" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.8657407">
+        <state line="34" column="4" selection-start="1075" selection-end="1075" vertical-scroll-proportion="1.3357143">
           <folding />
         </state>
       </provider>
@@ -1935,7 +1830,13 @@
       </state>
       <state key="ScopeChooserConfigurable.UI">
         <settings>
-          <splitter-proportions />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
         </settings>
       </state>
     </states>
