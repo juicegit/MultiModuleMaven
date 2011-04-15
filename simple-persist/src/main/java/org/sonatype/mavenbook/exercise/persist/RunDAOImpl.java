@@ -32,7 +32,7 @@ public class RunDAOImpl extends HibernateDaoSupport implements RunDAO {
     }
 
     public List<Run> all() {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        return (List<Run>) getHibernateTemplate().loadAll(Run.class);
     }
 
     public void save(Run run) {

@@ -1,8 +1,11 @@
 package org.sonatype.mavenbook.exercise.persist;
 
+import org.sonatype.mavenbook.exercise.model.ClothingComfort;
 import org.sonatype.mavenbook.exercise.model.Run;
 import org.sonatype.mavenbook.weather.model.Weather;
 import org.springframework.test.AbstractTransactionalDataSourceSpringContextTests;
+
+import java.util.List;
 
 /**
  * User: chq-justinh
@@ -41,7 +44,28 @@ public class RunDAOImplTest extends AbstractTransactionalDataSourceSpringContext
         assertEquals(run, foundRun);
     }
 
-    public void testAll() throws Exception {
+    public void testSaveRetrieveEnum() {
+        Run run = new Run();
+        final Weather weather = new Weather();
+        run.setWeather(weather);
+        run.setClothingComfort(ClothingComfort.JUST_RIGHT);
+        runDao.save(run);
 
+        final Run fetchedRun = runDao.findByWeather(weather);
+        assertEquals(ClothingComfort.JUST_RIGHT, fetchedRun.getClothingComfort());
+    }
+
+    public void testAll() throws Exception {
+        Run run1 = new Run();
+        run1.setWeather(new Weather());
+        runDao.save(run1);
+
+        Run run2 = new Run();
+        run2.setWeather(new Weather());
+        runDao.save(run2);
+
+        List<Run> runs = runDao.all();
+        assertNotNull(runs);
+        assertEquals(2, runs.size());
     }
 }
