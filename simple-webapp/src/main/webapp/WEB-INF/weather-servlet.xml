@@ -27,29 +27,14 @@
 
     <!-- you can have more than one handler defined -->
     <bean id="urlMapping"
-          class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
-        <property name="urlMap">
-            <map>
-                <entry key="/weather.x">
-                    <ref bean="weatherController"/>
-                </entry>
-                <entry key="/history.x">
-                    <ref bean="historyController"/>
-                </entry>
-                <entry key="/locations.x">
-                    <ref bean="locationController"/>
-                </entry>
-                <entry key="/run.x">
-                    <ref bean="runController"/>
-                </entry>
-
-            </map>
-        </property>
+          class="org.springframework.web.servlet.handler.ControllerClassNameHandler">
     </bean>
+
     <bean id="velocityConfig"
           class="org.springframework.web.servlet.view.velocity.VelocityConfigurer">
         <property name="resourceLoaderPath" value="/WEB-INF/vm/"/>
     </bean>
+
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.velocity.VelocityViewResolver">
         <property name="cache" value="true"/>
