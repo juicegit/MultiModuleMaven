@@ -20,7 +20,7 @@ import java.util.List;
  * Class Description
  */
 public class RunControllerTest extends TestCase {
-    public void testHandleRequest() throws Exception {
+    public void testPostNewRun() throws Exception {
 
         RunController rc = new RunController();
         rc.setRunDao(new RunDAO() {
@@ -54,5 +54,38 @@ public class RunControllerTest extends TestCase {
         assertTrue(run.getUsedPants());
         assertTrue(run.getUsedJacket());
         assertEquals(ClothingComfort.JUST_RIGHT, run.getClothingComfort());
+    }
+
+    public void testLoadExistingRun() throws Exception {
+
+        RunController rc = new RunController();
+        rc.setRunDao(new RunDAO() {
+            public Run findByWeather(Weather weather) {
+                assert weather != null;
+                final Run run = new Run();
+                run.setId(Integer.valueOf(1));
+                return run;
+            }
+
+            public List all() {
+                throw new UnsupportedOperationException("all is not supported");
+            }
+
+            public void save(Run run) {
+                throw new UnsupportedOperationException("save is not supported");
+            }
+        });
+
+        final MockHttpServletRequest request = new MockHttpServletRequest();
+        request.setMethod("GET");
+        request.setParameter("weatherId", "2");
+        rc.setSuccessView("run");
+
+        final ModelAndView modelAndView = rc.handleRequest(request, new MockHttpServletResponse());
+
+        final Run run = (Run) modelAndView.getModel().get("run");
+        assertNotNull(run);
+        assertEquals(Integer.valueOf(1), run.getId());
+
     }
 }

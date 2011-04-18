@@ -1,0 +1,6 @@
+<b>Run</b>
+<form method="POST" action="run.x">
+<b>Run Id: ${run.id}</b><br>
+Run Sensation: <input type="text" name="runSensation"/>
+<input type="submit" value="Save" name="save"/>
+<form/>

@@ -2,8 +2,12 @@ package org.sonatype.mavenbook.web;
 
 import org.sonatype.mavenbook.exercise.model.Run;
 import org.sonatype.mavenbook.exercise.persist.RunDAO;
+import org.sonatype.mavenbook.weather.model.Weather;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.SimpleFormController;
+
+
+import javax.servlet.http.HttpServletRequest;
 
 /**
  * Created by IntelliJ IDEA.
@@ -19,6 +23,13 @@ public class RunController extends SimpleFormController {
     public RunController() {
         setCommandClass(Run.class);
         setCommandName("run");
+    }
+
+    @Override
+    protected Object formBackingObject(HttpServletRequest request) throws Exception {
+        final Weather weather = new Weather();
+        weather.setId(Integer.valueOf(request.getParameter("weatherId")));
+        return runDao.findByWeather(weather);
     }
 
     @Override
