@@ -18,7 +18,7 @@ public class LocationController implements Controller {
     private LocationFinder locationDao;
 
     public ModelAndView handleRequest(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws Exception {
-        return new ModelAndView("locations", "locations", locationDao.all());
+        return new ModelAndView("location", "locations", locationDao.all());
     }
 
 

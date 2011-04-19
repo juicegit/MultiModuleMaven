@@ -3,6 +3,8 @@ package org.sonatype.mavenbook.web;
 import org.sonatype.mavenbook.exercise.model.Run;
 import org.sonatype.mavenbook.exercise.persist.RunDAO;
 import org.sonatype.mavenbook.weather.model.Weather;
+import org.sonatype.mavenbook.weather.persist.WeatherDAO;
+import org.springframework.beans.factory.annotation.Required;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.SimpleFormController;
 
@@ -19,6 +21,7 @@ import javax.servlet.http.HttpServletRequest;
 public class RunController extends SimpleFormController {
 
     private RunDAO runDao;
+    private WeatherDAO weatherDao;
 
     public RunController() {
         setCommandClass(Run.class);
@@ -27,9 +30,13 @@ public class RunController extends SimpleFormController {
 
     @Override
     protected Object formBackingObject(HttpServletRequest request) throws Exception {
-        final Weather weather = new Weather();
-        weather.setId(Integer.valueOf(request.getParameter("weatherId")));
-        return runDao.findByWeather(weather);
+        final Weather weather = weatherDao.load(Integer.valueOf(request.getParameter("weatherId")));
+        Run run = runDao.findByWeather(weather);
+        if (run == null) {
+            run = new Run();
+            run.setWeather(weather);
+        }
+        return run;
     }
 
     @Override
@@ -38,8 +45,15 @@ public class RunController extends SimpleFormController {
         return super.onSubmit(command);
     }
 
+    @Required
     public void setRunDao(RunDAO runDAO) {
 
         this.runDao = runDAO;
     }
+
+    @Required
+    public void setWeatherDao(WeatherDAO weatherDao) {
+        this.weatherDao = weatherDao;
+    }
+
 }

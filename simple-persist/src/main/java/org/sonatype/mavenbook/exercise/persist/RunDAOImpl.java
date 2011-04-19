@@ -35,6 +35,7 @@ public class RunDAOImpl extends HibernateDaoSupport implements RunDAO {
         return (List<Run>) getHibernateTemplate().loadAll(Run.class);
     }
 
+    @Transactional(propagation= Propagation.SUPPORTS, readOnly=false)
     public void save(Run run) {
         getHibernateTemplate().save(run);
     }

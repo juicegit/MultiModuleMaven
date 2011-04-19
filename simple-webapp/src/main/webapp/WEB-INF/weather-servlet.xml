@@ -23,8 +23,10 @@
 
     <bean id="runController" class="org.sonatype.mavenbook.web.RunController">
         <property name="runDao" ref="runDao"/>
+        <property name="weatherDao" ref="weatherDao"/>
         <property name="formView" value="run" />
         <property name="successView" value="run" />
+        <property name="sessionForm" value="true" />
     </bean>
 
     <!-- you can have more than one handler defined -->
