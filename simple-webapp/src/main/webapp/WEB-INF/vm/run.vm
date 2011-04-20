@@ -1,6 +1,13 @@
 <b>Run</b>
 <form method="POST" action="run.x">
 <b>Run Id: ${run.id}</b><br>
-Run Sensation: <input type="text" name="runSensation"/>
+<input type="hidden" name="id" value="${run.id}">
+Run Sensation: <input type="text" name="runSensation" value="${run.runSensation}"/>
+Clothing Comfort: <input type="text" name="clothingComfort" value=${run.clothingComfort}>
+Used Pants?: <input type="text" name="usedPants" value=${run.usedPants}><br>
+Used Jacket?: <input type="text" name="usedJacket" value=${run.usedJacket}><br>
+Used Long Sleeve?: <input type="text" name="usedLongSleeve" value=${run.usedLongSleeve}><br>
+<br>
+
 <input type="submit" value="Save" name="save"/>
 <form/>
