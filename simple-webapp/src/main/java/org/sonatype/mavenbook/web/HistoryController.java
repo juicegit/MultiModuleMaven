@@ -1,5 +1,6 @@
 package org.sonatype.mavenbook.web;
 
+import org.hibernate.property.Dom4jAccessor;
 import org.sonatype.mavenbook.weather.model.Location;
 import org.sonatype.mavenbook.weather.model.Weather;
 import org.sonatype.mavenbook.weather.persist.LocationFinder;
@@ -32,7 +33,11 @@ public class HistoryController implements Controller {
         Map<String,Object> model = new HashMap<String,Object>();
         model.put( "location", location );
         model.put( "weathers", weathers );
-        return new ModelAndView("history", model);
+        if ("xls".equals(httpServletRequest.getParameter("output"))) {
+            return new ModelAndView("excelhistory", model);
+        } else {
+            return new ModelAndView("history", model);
+        }
     }
 
     public LocationFinder getLocationDao() {
