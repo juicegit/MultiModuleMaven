@@ -1,5 +1,6 @@
 package org.sonatype.mavenbook.weather.persist;
 
+import org.hibernate.Hibernate;
 import org.hibernate.HibernateException;
 import org.hibernate.Query;
 import org.hibernate.Session;
@@ -29,7 +30,9 @@ public class WeatherDAOImpl extends HibernateDaoSupport implements WeatherDAO {
     }
 
     public Weather load(Integer id) {
-        return (Weather) getHibernateTemplate().load(Weather.class, id);
+        final Weather weather = (Weather) getHibernateTemplate().load(Weather.class, id);
+        Hibernate.initialize(weather);
+        return weather;
     }
 
     public List<Weather> recentForLocation(final Location location) {

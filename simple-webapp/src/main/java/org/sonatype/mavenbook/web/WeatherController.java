@@ -3,6 +3,7 @@ package org.sonatype.mavenbook.web;
 import org.sonatype.mavenbook.weather.WeatherService;
 import org.sonatype.mavenbook.weather.model.Weather;
 import org.sonatype.mavenbook.weather.persist.WeatherDAO;
+import org.springframework.util.StringUtils;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.Controller;
 
@@ -23,8 +24,14 @@ public class WeatherController implements Controller {
     public ModelAndView handleRequest(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws Exception {
 
         String zip = httpServletRequest.getParameter("zip");
-        Weather weather = weatherService.retrieveForecast(zip);
-        weatherDao.save(weather);
+        String id = httpServletRequest.getParameter("id");
+        Weather weather;
+        if (StringUtils.hasLength(id)) {
+            weather = weatherDao.load(Integer.valueOf(id));
+        } else {
+            weather = weatherService.retrieveForecast(zip);
+            weatherDao.save(weather);
+        }
         return new ModelAndView("weather", "weather", weather);
     }
 

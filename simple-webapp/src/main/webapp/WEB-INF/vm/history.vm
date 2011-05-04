@@ -14,4 +14,5 @@ Export to XLS <a href="history.x?zip=${location.zip}&output=xls">download</a>
 <li>Wind Speed: ${weather.wind.speed} Direction: ${weather.wind.directionDescription}</li>
 <li>Date: ${weather.date}</li>
 </ul>
+<a href="weather.x?zip=${location.zip}&id=${weather.id}">View</a>
 #end
