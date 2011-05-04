@@ -2,6 +2,8 @@
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
     <file url="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/orm/hibernate3/annotation/AnnotationSessionFactoryBean.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/HistoryController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/HistoryControllerTest.java" charset="UTF-8" />
   </component>
 </project>
 

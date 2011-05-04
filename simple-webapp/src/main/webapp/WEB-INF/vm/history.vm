@@ -2,6 +2,7 @@
 Weather History for: ${location.city}, ${location.region}, ${location.country}
 </b>
 <br/>
+Export to XLS <a href="history.x?zip=${location.zip}&output=xls">download</a>
 #foreach( $weather in $weathers )
 <ul>
 <li>Temperature: ${weather.condition.temp}</li>

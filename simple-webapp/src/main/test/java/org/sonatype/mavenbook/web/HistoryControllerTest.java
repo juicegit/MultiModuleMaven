@@ -1,6 +1,7 @@
 package org.sonatype.mavenbook.web;
 
 import junit.framework.TestCase;
+import org.apache.log4j.helpers.DateTimeDateFormat;
 import org.sonatype.mavenbook.weather.model.Location;
 import org.sonatype.mavenbook.weather.model.Weather;
 import org.sonatype.mavenbook.weather.persist.LocationDAO;
@@ -9,8 +10,11 @@ import org.springframework.mock.web.MockHttpServletRequest;
 import org.springframework.mock.web.MockHttpServletResponse;
 import org.springframework.web.servlet.ModelAndView;
 
-import java.util.ArrayList;
-import java.util.List;
+import javax.swing.text.DateFormatter;
+import java.sql.Array;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 /**
  * User: chq-justinh
@@ -19,6 +23,7 @@ import java.util.List;
  * <p/>
  * Class Description
  */
+@SuppressWarnings("unchecked")
 public class HistoryControllerTest extends TestCase {
     public void testHandleRequest() throws Exception {
 
@@ -59,7 +64,51 @@ public class HistoryControllerTest extends TestCase {
                 new MockHttpServletResponse());
 
         assertNotNull(modelAndView);
-        assertSame(ExcelHistoryView.class, modelAndView.getView().getClass());
+        assertSame("excelHistory", modelAndView.getViewName());
+        final List<Weather> weathers = (List<Weather>) modelAndView.getModelMap().get("weathers");
+        assertNotNull(weathers);
+        assertEquals(2, weathers.size());
+
+    }
+
+
+    public void testGetLocales() {
+        final Locale[] locales = Locale.getAvailableLocales();
+
+        Arrays.sort(locales, new Comparator<Locale>() {
+            public int compare(Locale o1, Locale o2) {
+                final int i = o1.getISO3Language().compareTo(o2.getISO3Language());
+                if (i == 0) {
+                    return o1.getCountry().compareTo(o2.getCountry());
+                }
+                return i;
+            }
+        });
+
+
+        for (Locale locale: locales) {
+            String tab = "\t\t";
+            if (locale.toString().length() < 3) {
+                tab = "\t\t\t";
+            } else if (locale.toString().length() > 5) {
+                tab = "\t";
+            }
+            System.out.println(locale.toString() + tab + locale.getDisplayName());
+        }
+
+        Locale hindi = new Locale("hi");
+        Locale hindiIndia = new Locale("hi", "IN");
+
+        SimpleDateFormat format = (SimpleDateFormat) SimpleDateFormat.getDateInstance(DateFormat.FULL, hindi);
+        SimpleDateFormat specFormat = (SimpleDateFormat) SimpleDateFormat.getDateInstance(DateFormat.FULL, hindiIndia);
+        SimpleDateFormat chinaFormat = (SimpleDateFormat) SimpleDateFormat.getDateInstance(DateFormat.FULL, Locale.CHINESE);
+
+        System.out.println(format.format(new Date()));
+        System.out.println(specFormat.format(new Date()));
+        System.out.println(chinaFormat.format(new Date()));
+
+        Locale norsk = new Locale("nb");
+        Locale bogus = new Locale("88");
 
     }
 }

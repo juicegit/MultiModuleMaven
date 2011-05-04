@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16087432-b4a0-4372-81a8-d857ef125a6e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_jexcelapi_jxl_2_6_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/ExcelHistoryView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/HistoryControllerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_annotations_3_3_0_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_annotations_3_3_0_GA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_commons_annotations_3_3_0_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_commons_annotations_3_3_0_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/ExcelHistoryViewTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/WeatherControllerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/views.xml" />
+      <change type="DELETED" beforePath="C:\projects\MultiModuleMaven\data\weather.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\MultiModuleMaven\data\weather.script" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-webapp/pom.xml" afterPath="$PROJECT_DIR$/simple-webapp/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-webapp/simple-webapp.iml" afterPath="$PROJECT_DIR$/simple-webapp/simple-webapp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-persist/data/weather.properties" afterPath="$PROJECT_DIR$/simple-persist/data/weather.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-persist/data/weather.script" afterPath="$PROJECT_DIR$/simple-persist/data/weather.script" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-webapp/data/weather.properties" afterPath="$PROJECT_DIR$/simple-webapp/data/weather.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-webapp/data/weather.script" afterPath="$PROJECT_DIR$/simple-webapp/data/weather.script" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/ExcelHistoryView.java" afterPath="$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/ExcelHistoryView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/HistoryController.java" afterPath="$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/HistoryController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/HistoryControllerTest.java" afterPath="$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/HistoryControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/history.vm" afterPath="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/history.vm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/weather-servlet.xml" afterPath="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/weather-servlet.xml" />
     </list>
     <ignored path="MultiModuleMaven.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,6 +80,19 @@
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/HistoryControllerTest.java" line="81" class="org.sonatype.mavenbook.web.HistoryControllerTest$3" package="org.sonatype.mavenbook.web">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="true" />
+        <option name="SUSPEND_POLICY" value="SuspendNone" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="o1.getISO3Country() + &quot; compared to &quot; + o2.getISO3Country()" />
       </breakpoint>
     </line_breakpoints>
     <method_breakpoints>
@@ -140,65 +160,62 @@
       </breakpoint>
     </breakpoint_any>
     <breakpoint_rules />
-    <ui_properties />
+    <ui_properties>
+      <property name="line_breakpoints_groupByMethods" value="false" />
+      <property name="line_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_flattenPackages" value="true" />
+      <property name="method_breakpoints_flattenPackages" value="true" />
+      <property name="field_breakpoints_flattenPackages" value="true" />
+      <property name="exception_breakpoints_groupByMethods" value="false" />
+      <property name="line_breakpoints_groupByClasses" value="true" />
+      <property name="method_breakpoints_viewId" value="TABLE" />
+      <property name="field_breakpoints_groupByMethods" value="false" />
+      <property name="line_breakpoints_flattenPackages" value="true" />
+      <property name="field_breakpoints_groupByClasses" value="true" />
+      <property name="method_breakpoints_groupByClasses" value="true" />
+      <property name="exception_breakpoints_viewId" value="TABLE" />
+      <property name="field_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_groupByClasses" value="true" />
+      <property name="method_breakpoints_groupByMethods" value="false" />
+    </ui_properties>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="MultiModuleMaven" />
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="weather-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/weather-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="94" selection-start="2210" selection-end="2210" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="HistoryController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/HistoryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1423" selection-end="1423" vertical-scroll-proportion="0.0">
+            <state line="31" column="52" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModelAndView.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/ModelAndView.java">
+      <file leaf-file-name="WeatherDAO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/weather/persist/WeatherDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="37" selection-start="3137" selection-end="3425" vertical-scroll-proportion="-4.6005435">
+            <state line="22" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModelMap.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/ui/ModelMap.java">
+      <file leaf-file-name="WeatherDAOImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/weather/persist/WeatherDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="0" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.0">
+            <state line="34" column="25" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MockHttpServletRequest.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-mock/2.0.7/spring-mock-2.0.7.jar!/org/springframework/mock/web/MockHttpServletRequest.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="174" column="28" selection-start="7430" selection-end="7430" vertical-scroll-proportion="-3.4">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Assert.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/util/Assert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="0" selection-start="4314" selection-end="4314" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HistoryControllerTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/HistoryControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="23" selection-start="1929" selection-end="1929" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -206,37 +223,55 @@
       <file leaf-file-name="ExcelHistoryView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/ExcelHistoryView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="29" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
+            <state line="19" column="40" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractJExcelView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/view/document/AbstractJExcelView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="120" column="18" selection-start="3756" selection-end="3756" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weather.script" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simple-webapp/data/weather.script">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="382" column="49" selection-start="26568" selection-end="26568" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeatherController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/WeatherController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="28" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeatherControllerTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/WeatherControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="5" selection-start="278" selection-end="278" vertical-scroll-proportion="0.4148148">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExcelHistoryViewTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/ExcelHistoryViewTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="17" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RunDAO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/exercise/persist/RunDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RunDAOImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/exercise/persist/RunDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="39" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocationDAOImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/weather/persist/LocationDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="14" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -261,22 +296,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/RunCommand.java" />
-        <option value="$PROJECT_DIR$/simple-webapp/pom.xml" />
-        <option value="$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/LocationController.java" />
-        <option value="$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/RunControllerTest.java" />
         <option value="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/weather.vm" />
         <option value="$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/RunController.java" />
         <option value="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/log4j.properties" />
-        <option value="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/weather-servlet.xml" />
         <option value="$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/exercise/persist/RunDAOImpl.java" />
         <option value="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/run.vm" />
-        <option value="$PROJECT_DIR$/simple-webapp/data/weather.script" />
         <option value="$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/ExcelHistoryController.java" />
         <option value="$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/ExcelHistoryController.java" />
         <option value="$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/HistoryController.java" />
-        <option value="$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/ExcelHistoryView.java" />
         <option value="$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/HistoryControllerTest.java" />
+        <option value="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/history.vm" />
+        <option value="$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/ExcelHistoryViewTest.java" />
+        <option value="$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/ExcelHistoryView.java" />
+        <option value="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/views.xml" />
+        <option value="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/weather-servlet.xml" />
+        <option value="$PROJECT_DIR$/simple-webapp/data/weather.script" />
+        <option value="$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/WeatherControllerTest.java" />
       </list>
     </option>
   </component>
@@ -303,10 +338,6 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="Simple Web Application" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Dependencies" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -581,82 +612,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple-persist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org.sonatype.mavenbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weather.model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org.sonatype.mavenbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="multi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -742,6 +697,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -857,18 +846,80 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-persist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.sonatype.mavenbook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather.model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.sonatype.mavenbook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="multi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -905,7 +956,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.XML" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -940,101 +991,7 @@
       <recent name="org.sonatype.mavenbook.web" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HistoryControllerTest.testHandleRequest">
-    <configuration default="false" name="RunDAOImplTest.testAll" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="simple-persist" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.sonatype.mavenbook.exercise.persist" />
-      <option name="MAIN_CLASS_NAME" value="org.sonatype.mavenbook.exercise.persist.RunDAOImplTest" />
-      <option name="METHOD_NAME" value="testAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RunControllerTest.testLoadExistingRun" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="simple-webapp" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.sonatype.mavenbook.web" />
-      <option name="MAIN_CLASS_NAME" value="org.sonatype.mavenbook.web.RunControllerTest" />
-      <option name="METHOD_NAME" value="testLoadExistingRun" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="simple-webapp [org.mortbay.jetty:maven-jetty-plugin:6.1.26:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings">
-          <MavenGeneralSettings>
-            <option name="checksumPolicy" value="FAIL" />
-            <option name="failureBehavior" value="FAST" />
-            <option name="localRepository" value="" />
-            <option name="mavenHome" value="" />
-            <option name="nonRecursive" value="false" />
-            <option name="pluginUpdatePolicy" value="DO_NOT_UPDATE" />
-            <option name="printErrorStackTraces" value="false" />
-            <option name="snapshotUpdatePolicy" value="ALWAYS_UPDATE" />
-            <option name="usePluginRegistry" value="false" />
-            <option name="userSettingsFile" value="" />
-            <option name="workOffline" value="false" />
-          </MavenGeneralSettings>
-        </option>
-        <option name="myRunnerSettings">
-          <MavenRunnerSettings>
-            <option name="jreName" value="1.6" />
-            <option name="mavenProperties">
-              <map />
-            </option>
-            <option name="runMavenInBackground" value="true" />
-            <option name="skipTests" value="false" />
-            <option name="vmOptions" value="" />
-          </MavenRunnerSettings>
-        </option>
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="goals">
-              <list>
-                <option value="org.mortbay.jetty:maven-jetty-plugin:6.1.26:run" />
-              </list>
-            </option>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="workingDirPath" value="$PROJECT_DIR$/simple-webapp" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="1591" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Maven.clean install">
     <configuration default="false" name="RunControllerTest.testNewRun" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="simple-webapp" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1082,6 +1039,78 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="HistoryControllerTest.testGetLocales" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="simple-webapp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.sonatype.mavenbook.web" />
+      <option name="MAIN_CLASS_NAME" value="org.sonatype.mavenbook.web.HistoryControllerTest" />
+      <option name="METHOD_NAME" value="testGetLocales" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3860" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="HistoryControllerTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="simple-webapp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.sonatype.mavenbook.web" />
+      <option name="MAIN_CLASS_NAME" value="org.sonatype.mavenbook.web.HistoryControllerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExcelHistoryViewTest.testBuildExcelDocument" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="simple-webapp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.sonatype.mavenbook.web" />
+      <option name="MAIN_CLASS_NAME" value="org.sonatype.mavenbook.web.ExcelHistoryViewTest" />
+      <option name="METHOD_NAME" value="testBuildExcelDocument" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -1397,15 +1426,15 @@
       <method />
     </configuration>
     <list size="9">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.RunDAOImplTest.testAll" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.RunControllerTest.testLoadExistingRun" />
-      <item index="2" class="java.lang.String" itemvalue="Maven.simple-webapp [org.mortbay.jetty:maven-jetty-plugin:6.1.26:run]" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.RunControllerTest.testNewRun" />
-      <item index="4" class="java.lang.String" itemvalue="Maven.Analyze Dependency" />
-      <item index="5" class="java.lang.String" itemvalue="Maven.clean install" />
-      <item index="6" class="java.lang.String" itemvalue="Maven.Active Profiles" />
-      <item index="7" class="java.lang.String" itemvalue="Maven.flyway migrate init" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.HistoryControllerTest.testHandleRequest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.RunControllerTest.testNewRun" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.Analyze Dependency" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.clean install" />
+      <item index="3" class="java.lang.String" itemvalue="Maven.Active Profiles" />
+      <item index="4" class="java.lang.String" itemvalue="Maven.flyway migrate init" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.HistoryControllerTest.testHandleRequest" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.HistoryControllerTest.testGetLocales" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.HistoryControllerTest" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.ExcelHistoryViewTest.testBuildExcelDocument" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -1413,6 +1442,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value="SHOW_PROPERTIES,ALPHA_COMPARATOR" />
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -1440,26 +1472,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1288" height="1032" extended-state="6" />
+    <frame x="-4" y="-4" width="1288" height="1032" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5142232" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.678337" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33041576" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42341357" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32197893" sideWeight="0.031728666" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.124087594" sideWeight="0.4857768" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35279804" sideWeight="0.42450765" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.06163828" sideWeight="0.6597374" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3998378" sideWeight="0.5842451" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32197893" sideWeight="0.4452954" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29278183" sideWeight="0.6597374" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39496717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3402626" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="96" y="96" width="1088" height="832" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1514,110 +1546,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/LocationControllerTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/mvc/support/ControllerClassNameHandlerMapping.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="482" selection-end="482" vertical-scroll-proportion="0.031446543">
+        <state line="105" column="0" selection-start="4581" selection-end="4581" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/history.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="77" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/RunControllerTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/ModelAndView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="48" selection-start="1890" selection-end="1890" vertical-scroll-proportion="1.1320754">
+        <state line="94" column="11" selection-start="2989" selection-end="2989" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-weather/src/main/java/org/sonatype/mavenbook/weather/WeatherService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/jexcelapi/jxl/2.6.10/jxl-2.6.10.jar!/jxl/write/WritableWorkbook.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="295" selection-end="295" vertical-scroll-proportion="0.32480314">
+        <state line="28" column="44" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.3480769">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-webapp/data/weather.properties">
+    <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/views.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/weather-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="54" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
+        <state line="51" column="94" selection-start="2210" selection-end="2210" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/weather/persist/LocationDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/ExcelHistoryViewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="14" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/exercise/persist/RunDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="39" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/exercise/persist/RunDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/ExcelHistoryView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="29" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
+        <state line="31" column="17" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/util/Assert.java">
+    <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/ExcelHistoryView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="0" selection-start="4314" selection-end="4314" vertical-scroll-proportion="0.0">
+        <state line="19" column="40" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-mock/2.0.7/spring-mock-2.0.7.jar!/org/springframework/mock/web/MockHttpServletRequest.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/view/AbstractView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="28" selection-start="7430" selection-end="7430" vertical-scroll-proportion="-3.4">
+        <state line="98" column="18" selection-start="3218" selection-end="3218" vertical-scroll-proportion="2.4660552">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/ui/ModelMap.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/view/document/AbstractJExcelView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="0" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.0">
+        <state line="120" column="18" selection-start="3756" selection-end="3756" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/HistoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1423" selection-end="1423" vertical-scroll-proportion="0.0">
+        <state line="31" column="52" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/HistoryControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/weather/persist/WeatherDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="23" selection-start="1929" selection-end="1929" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="22" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/ModelAndView.java">
+    <entry file="file://$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/weather/persist/WeatherDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="37" selection-start="3137" selection-end="3425" vertical-scroll-proportion="-4.6005435">
+        <state line="34" column="25" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-webapp/data/weather.script">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="382" column="49" selection-start="26568" selection-end="26568" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/WeatherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="28" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/WeatherControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="5" selection-start="278" selection-end="278" vertical-scroll-proportion="0.4148148">
           <folding />
         </state>
       </provider>

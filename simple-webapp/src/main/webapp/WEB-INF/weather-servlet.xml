@@ -16,6 +16,8 @@
 
     </bean>
 
+    <bean id="excelHistory" class="org.sonatype.mavenbook.web.ExcelHistoryView"/>
+
     <bean id="locationController"
           class="org.sonatype.mavenbook.web.LocationController">
         <property name="locationDao" ref="locationDao"/>
@@ -45,5 +47,12 @@
         <property name="prefix" value=""/>
         <property name="suffix" value=".vm"/>
         <property name="exposeSpringMacroHelpers" value="true"/>
+    </bean>
+
+    <bean id="xmlFileViewResolver" class="org.springframework.web.servlet.view.XmlViewResolver">
+        <property name="location">
+            <value>/WEB-INF/views.xml</value>
+        </property>
+        <property name="order"><value>1</value></property>
     </bean>
 </beans>

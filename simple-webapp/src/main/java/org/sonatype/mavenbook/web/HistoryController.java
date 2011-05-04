@@ -34,7 +34,7 @@ public class HistoryController implements Controller {
         model.put( "location", location );
         model.put( "weathers", weathers );
         if ("xls".equals(httpServletRequest.getParameter("output"))) {
-            return new ModelAndView("excelhistory", model);
+            return new ModelAndView("excelHistory", model);
         } else {
             return new ModelAndView("history", model);
         }
