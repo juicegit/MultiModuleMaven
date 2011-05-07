@@ -5,21 +5,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_annotations_3_3_0_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_annotations_3_3_0_GA.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_commons_annotations_3_3_0_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_commons_annotations_3_3_0_GA.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MultiModuleMaven.iml" afterPath="$PROJECT_DIR$/MultiModuleMaven.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-model/simple-model.iml" afterPath="$PROJECT_DIR$/simple-model/simple-model.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-persist/data/weather.properties" afterPath="$PROJECT_DIR$/simple-persist/data/weather.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-persist/data/weather.script" afterPath="$PROJECT_DIR$/simple-persist/data/weather.script" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-persist/pom.xml" afterPath="$PROJECT_DIR$/simple-persist/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-persist/simple-persist.iml" afterPath="$PROJECT_DIR$/simple-persist/simple-persist.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/weather/persist/WeatherDAOImpl.java" afterPath="$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/weather/persist/WeatherDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-weather/simple-weather.iml" afterPath="$PROJECT_DIR$/simple-weather/simple-weather.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-webapp/data/weather.properties" afterPath="$PROJECT_DIR$/simple-webapp/data/weather.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-webapp/data/weather.script" afterPath="$PROJECT_DIR$/simple-webapp/data/weather.script" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-webapp/simple-webapp.iml" afterPath="$PROJECT_DIR$/simple-webapp/simple-webapp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/WeatherController.java" afterPath="$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/WeatherController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/WeatherControllerTest.java" afterPath="$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/WeatherControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-webapp/pom.xml" afterPath="$PROJECT_DIR$/simple-webapp/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/log4j.properties" afterPath="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/log4j.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/history.vm" afterPath="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/history.vm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/location.vm" afterPath="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/location.vm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/run.vm" afterPath="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/run.vm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/weather.vm" afterPath="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/weather.vm" />
     </list>
     <ignored path="MultiModuleMaven.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,6 +62,58 @@
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="o1.getISO3Country() + &quot; compared to &quot; + o2.getISO3Country()" />
+      </breakpoint>
+      <breakpoint url="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/mvc/SimpleFormController.java" line="253" class="org.springframework.web.servlet.mvc.SimpleFormController" package="org.springframework.web.servlet.mvc">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/mvc/BaseCommandController.java" line="365" class="org.springframework.web.servlet.mvc.BaseCommandController" package="org.springframework.web.servlet.mvc">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/mvc/SimpleFormController.java" line="259" class="org.springframework.web.servlet.mvc.SimpleFormController" package="org.springframework.web.servlet.mvc">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java" line="857" class="org.springframework.web.servlet.DispatcherServlet" package="org.springframework.web.servlet">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
     <method_breakpoints>
@@ -145,10 +190,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WeatherController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/WeatherController.java">
+      <file leaf-file-name="DispatcherServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="35" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.0">
+            <state line="857" column="0" selection-start="35628" selection-end="35628" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weather.vm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/weather.vm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="46" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="history.vm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/history.vm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="53" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="location.vm" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/location.vm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="18" selection-start="468" selection-end="468" vertical-scroll-proportion="0.589183">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run.vm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/run.vm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="48" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/mvc/AbstractController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="152" column="0" selection-start="6531" selection-end="6531" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractFormController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/mvc/AbstractFormController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="264" column="0" selection-start="13453" selection-end="13453" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleFormController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/mvc/SimpleFormController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="266" column="0" selection-start="11213" selection-end="11213" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseCommandController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/mvc/BaseCommandController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="377" column="0" selection-start="14270" selection-end="14270" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,79 +274,7 @@
       <file leaf-file-name="RunController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/RunController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="43" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HistoryController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/HistoryController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="49" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeatherDAO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/weather/persist/WeatherDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeatherDAOImpl.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/weather/persist/WeatherDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="1749" selection-end="1749" vertical-scroll-proportion="0.82287824">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Weather.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple-model/src/main/java/org/sonatype/mavenbook/weather/model/Weather.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="0" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PropertyExecutor.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.5/velocity-1.5.jar!/org/apache/velocity/runtime/parser/node/PropertyExecutor.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="28" selection-start="1065" selection-end="1065" vertical-scroll-proportion="-5.68">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UberspectImpl.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.5/velocity-1.5.jar!/org/apache/velocity/util/introspection/UberspectImpl.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="32" selection-start="2820" selection-end="2820" vertical-scroll-proportion="-3.36">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ASTIdentifier.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.5/velocity-1.5.jar!/org/apache/velocity/runtime/parser/node/ASTIdentifier.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="28" selection-start="915" selection-end="915" vertical-scroll-proportion="-5.68">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ASTReference.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.5/velocity-1.5.jar!/org/apache/velocity/runtime/parser/node/ASTReference.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="19" selection-start="1737" selection-end="1737" vertical-scroll-proportion="-3.36">
+            <state line="44" column="0" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -255,11 +300,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/run.vm" />
-        <option value="$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/ExcelHistoryController.java" />
-        <option value="$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/ExcelHistoryController.java" />
-        <option value="$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/HistoryController.java" />
-        <option value="$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/HistoryControllerTest.java" />
         <option value="$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/ExcelHistoryViewTest.java" />
         <option value="$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/ExcelHistoryView.java" />
         <option value="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/views.xml" />
@@ -269,8 +309,13 @@
         <option value="$PROJECT_DIR$/simple-persist/pom.xml" />
         <option value="$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/WeatherController.java" />
         <option value="$PROJECT_DIR$/simple-webapp/src/main/test/java/org/sonatype/mavenbook/web/WeatherControllerTest.java" />
-        <option value="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/history.vm" />
         <option value="$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/weather/persist/WeatherDAOImpl.java" />
+        <option value="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/log4j.properties" />
+        <option value="$PROJECT_DIR$/simple-webapp/pom.xml" />
+        <option value="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/run.vm" />
+        <option value="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/weather.vm" />
+        <option value="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/history.vm" />
+        <option value="$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/location.vm" />
       </list>
     </option>
   </component>
@@ -358,34 +403,6 @@
           <option name="myItemId" value="Simple Weather API" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Dependencies" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Simple Weather API" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Simple Persistence Layer" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Dependencies" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
-        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -454,7 +471,307 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Favorites" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-persist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.sonatype.mavenbook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather.model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.sonatype.mavenbook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="multi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MultiModuleMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -623,318 +940,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple-webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple-webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple-webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple-webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple-webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple-webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple-webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple-webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple-persist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org.sonatype.mavenbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weather.model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org.sonatype.mavenbook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="multi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiModuleMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1002,35 +1007,7 @@
       <recent name="org.sonatype.mavenbook.web" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.clean install">
-    <configuration default="false" name="HistoryControllerTest.testGetLocales" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="simple-webapp" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.sonatype.mavenbook.web" />
-      <option name="MAIN_CLASS_NAME" value="org.sonatype.mavenbook.web.HistoryControllerTest" />
-      <option name="METHOD_NAME" value="testGetLocales" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="3860" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Maven.simple-webapp [org.mortbay.jetty:maven-jetty-plugin:6.1.26:run]">
     <configuration default="false" name="HistoryControllerTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="simple-webapp" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1145,6 +1122,52 @@
         <option name="LOCAL" value="true" />
       </RunnerSettings>
       <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="simple-webapp [org.mortbay.jetty:maven-jetty-plugin:6.1.26:stop]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings">
+          <MavenGeneralSettings>
+            <option name="checksumPolicy" value="FAIL" />
+            <option name="failureBehavior" value="FAST" />
+            <option name="localRepository" value="" />
+            <option name="mavenHome" value="" />
+            <option name="nonRecursive" value="false" />
+            <option name="pluginUpdatePolicy" value="DO_NOT_UPDATE" />
+            <option name="printErrorStackTraces" value="false" />
+            <option name="snapshotUpdatePolicy" value="ALWAYS_UPDATE" />
+            <option name="usePluginRegistry" value="false" />
+            <option name="userSettingsFile" value="" />
+            <option name="workOffline" value="false" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="jreName" value="1.6" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="goals">
+              <list>
+                <option value="org.mortbay.jetty:maven-jetty-plugin:6.1.26:stop" />
+              </list>
+            </option>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="workingDirPath" value="$PROJECT_DIR$/simple-webapp" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
@@ -1459,15 +1482,15 @@
       <method />
     </configuration>
     <list size="9">
-      <item index="0" class="java.lang.String" itemvalue="Maven.Analyze Dependency" />
-      <item index="1" class="java.lang.String" itemvalue="Maven.clean install" />
-      <item index="2" class="java.lang.String" itemvalue="Maven.Active Profiles" />
-      <item index="3" class="java.lang.String" itemvalue="Maven.flyway migrate init" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.HistoryControllerTest.testGetLocales" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.HistoryControllerTest" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.ExcelHistoryViewTest.testBuildExcelDocument" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.WeatherControllerTest.testHandleRequestUpdate" />
-      <item index="8" class="java.lang.String" itemvalue="Maven.simple-webapp [org.mortbay.jetty:maven-jetty-plugin:6.1.26:run]" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.HistoryControllerTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ExcelHistoryViewTest.testBuildExcelDocument" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.WeatherControllerTest.testHandleRequestUpdate" />
+      <item index="3" class="java.lang.String" itemvalue="Maven.simple-webapp [org.mortbay.jetty:maven-jetty-plugin:6.1.26:run]" />
+      <item index="4" class="java.lang.String" itemvalue="Maven.Analyze Dependency" />
+      <item index="5" class="java.lang.String" itemvalue="Maven.clean install" />
+      <item index="6" class="java.lang.String" itemvalue="Maven.Active Profiles" />
+      <item index="7" class="java.lang.String" itemvalue="Maven.flyway migrate init" />
+      <item index="8" class="java.lang.String" itemvalue="Maven.simple-webapp [org.mortbay.jetty:maven-jetty-plugin:6.1.26:stop]" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -1506,27 +1529,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1288" height="1032" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4354486" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.404814" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33041576" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42341357" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35279804" sideWeight="0.42450765" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33576643" sideWeight="0.6761488" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2376318" sideWeight="0.20131291" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30089214" sideWeight="0.4890591" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3998378" sideWeight="0.5842451" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.05271695" sideWeight="0.6761488" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2376318" sideWeight="0.78993434" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3238512" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5109409" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="96" y="96" width="1088" height="832" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42341357" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -1579,16 +1602,37 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/mvc/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="223" column="0" selection-start="8408" selection-end="8408" vertical-scroll-proportion="0.0">
+        <state line="130" column="0" selection-start="6598" selection-end="6702" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/ModelAndView.java">
+    <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="0" selection-start="4185" selection-end="4185" vertical-scroll-proportion="0.0">
+        <state line="8" column="38" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="38" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-webapp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="21" selection-start="3144" selection-end="3144" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/HandlerExecutionChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="0" selection-start="1705" selection-end="1705" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1600,93 +1644,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/mvc/AbstractController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1110" column="0" selection-start="44903" selection-end="44903" vertical-scroll-proportion="0.0">
+        <state line="152" column="0" selection-start="6531" selection-end="6531" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.5/velocity-1.5.jar!/org/apache/velocity/runtime/parser/node/SimpleNode.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/mvc/BaseCommandController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="19" selection-start="2975" selection-end="2975" vertical-scroll-proportion="-3.72">
+        <state line="377" column="0" selection-start="14270" selection-end="14270" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate/3.2.5.ga/hibernate-3.2.5.ga-sources.jar!/org/hibernate/proxy/pojo/cglib/CGLIBLazyInitializer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/mvc/AbstractFormController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="0" selection-start="5383" selection-end="5383" vertical-scroll-proportion="0.0">
+        <state line="264" column="0" selection-start="13453" selection-end="13453" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.5/velocity-1.5.jar!/org/apache/velocity/runtime/parser/node/PropertyExecutor.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/mvc/SimpleFormController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="28" selection-start="1065" selection-end="1065" vertical-scroll-proportion="-5.68">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.5/velocity-1.5.jar!/org/apache/velocity/util/introspection/UberspectImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="32" selection-start="2820" selection-end="2820" vertical-scroll-proportion="-3.36">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.5/velocity-1.5.jar!/org/apache/velocity/runtime/parser/node/ASTIdentifier.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="28" selection-start="915" selection-end="915" vertical-scroll-proportion="-5.68">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.5/velocity-1.5.jar!/org/apache/velocity/runtime/parser/node/ASTReference.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="19" selection-start="1737" selection-end="1737" vertical-scroll-proportion="-3.36">
+        <state line="266" column="0" selection-start="11213" selection-end="11213" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/RunController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="43" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0">
+        <state line="44" column="0" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/HistoryController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.0.7/spring-2.0.7-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="49" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.0">
+        <state line="857" column="0" selection-start="35628" selection-end="35628" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-model/src/main/java/org/sonatype/mavenbook/weather/model/Weather.java">
+    <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/run.vm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.0">
+        <state line="14" column="48" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/java/org/sonatype/mavenbook/web/WeatherController.java">
+    <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/weather.vm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="35" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.0">
+        <state line="15" column="46" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/weather/persist/WeatherDAO.java">
+    <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/history.vm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
+        <state line="31" column="53" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-persist/src/main/java/org/sonatype/mavenbook/weather/persist/WeatherDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/simple-webapp/src/main/webapp/WEB-INF/vm/location.vm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1749" selection-end="1749" vertical-scroll-proportion="0.82287824">
+        <state line="32" column="18" selection-start="468" selection-end="468" vertical-scroll-proportion="0.589183">
           <folding />
         </state>
       </provider>

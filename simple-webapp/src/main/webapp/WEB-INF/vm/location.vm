@@ -30,10 +30,7 @@ background-color:#EAF2D3;
 </head>
 <body>
 
-<b>
-Known Locations
-</b>
-<br/>
+<h2 id="locations">Known Locations</h2>
 <table id="locations">
 #foreach( $location in $locations )
 <tr #if ($velocityCount % 2 == 0) > #{else} class="alt" > #end

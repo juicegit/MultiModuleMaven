@@ -1,13 +1,15 @@
 <b>Run</b>
+<b>Run Id: $!{run.id}</b><br><br>
 <form method="POST" action="run.x">
-<b>Run Id: ${run.id}</b><br>
-<input type="hidden" name="id" value="${run.id}">
-Run Sensation: <input type="text" name="runSensation" value="${run.runSensation}"/>
-Clothing Comfort: <input type="text" name="clothingComfort" value=${run.clothingComfort}>
-Used Pants?: <input type="text" name="usedPants" value=${run.usedPants}><br>
-Used Jacket?: <input type="text" name="usedJacket" value=${run.usedJacket}><br>
-Used Long Sleeve?: <input type="text" name="usedLongSleeve" value=${run.usedLongSleeve}><br>
+<input type="hidden" name="id" value="$!{run.id}">
+Run Sensation: <input type="text" name="runSensation" value="$!{run.runSensation}"/>
+Clothing Comfort: <input type="text" name="clothingComfort" value=$!{run.clothingComfort}>
+Used Pants?: <input type="text" name="usedPants" value=$!{run.usedPants}><br>
+Used Jacket?: <input type="text" name="usedJacket" value=$!{run.usedJacket}><br>
+Used Long Sleeve?: <input type="text" name="usedLongSleeve" value=$!{run.usedLongSleeve}><br>
 <br>
 
 <input type="submit" value="Save" name="save"/>
 <form/>
+<br><br>
+<a href="weather.x?id=${run.weather.id}">Weather</a>

@@ -1,18 +1,66 @@
-<b>
-Weather History for: ${location.city}, ${location.region}, ${location.country}
-</b>
+<head>
+<style type="text/css">
+#weathers
+{
+font-family:"Calibri", Arial, Helvetica, sans-serif;
+width:50%;
+border-collapse:collapse;
+}
+#weathers td, #weathers th
+{
+font-size:1em;
+border:1px solid #98bf21;
+padding:3px 7px 2px 7px;
+}
+#weathers th
+{
+font-size:1.2em;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#A7C942;
+color:#fff;
+}
+#weathers tr.alt td
+{
+color:#000;
+background-color:#EAF2D3;
+}
+</style>
+</head>
+<body>
+<h3 id="weathers"><a href="locations.x">Locations</a></h3>
+<br><br>
+<h2 id="weathers">History for ${location.city}, ${location.region}, ${location.country}</h2>
+<table id="weathers">
+<tr>
+    <th>Temp</th>
+    <th>Wind Chill</th>
+    <th>Condition</th>
+    <th>Humidity</th>
+    <th>Pressure</th>
+    <th>Stability</th>
+    <th>Wind Speed</th>
+    <th>Direction</th>
+    <th>Date</th>
+    <th>&nbsp;</th>
+</tr>
+#foreach( $weather in $weathers )
+<tr #if ($velocityCount % 2 == 0) > #{else} class="alt" > #end
+    <td>${weather.condition.temp}</td>
+    <td>$!{weather.wind.chill}</td>
+    <td nowrap="nowrap">${weather.condition.text}</td>
+    <td>${weather.atmosphere.humidity}</td>
+    <td>${weather.atmosphere.pressure}</td>
+    <td>${weather.atmosphere.risingDescription}</td>
+    <td>$!{weather.wind.speed}</td>
+    <td>$!{weather.wind.directionDescription}</td>
+    <td nowrap="nowrap">${weather.date}</td>
+    <td><a href="weather.x?zip=${location.zip}&id=${weather.id}">View</a></td>
+</tr>
+#end
+</table>
 <br/>
 Export to XLS <a href="history.x?zip=${location.zip}&output=xls">download</a>
-#foreach( $weather in $weathers )
-<ul>
-<li>Temperature: ${weather.condition.temp}</li>
-<li>Condition: ${weather.condition.text}</li>
-<li>Humidity: ${weather.atmosphere.humidity}</li>
-<li>Pressure: ${weather.atmosphere.pressure}</li>
-<li>Rising: ${weather.atmosphere.risingDescription}</li>
-<li>Wind Chill: ${weather.wind.chill}</li>
-<li>Wind Speed: ${weather.wind.speed} Direction: ${weather.wind.directionDescription}</li>
-<li>Date: ${weather.date}</li>
-</ul>
-<a href="weather.x?zip=${location.zip}&id=${weather.id}">View</a>
-#end
+
+</body>

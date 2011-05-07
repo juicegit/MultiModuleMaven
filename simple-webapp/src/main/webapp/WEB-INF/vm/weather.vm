@@ -10,5 +10,7 @@ ${weather.location.country}</b><br/>
 <li>Wind Chill: ${weather.wind.chill}</li>
 <li>Wind Speed: ${weather.wind.speed} Direction: ${weather.wind.directionDescription}</li>
 <li>Date: ${weather.date}</li>
-<li>Run: ${weather.run.runSensation} <a href='run.x?weatherId=${weather.id}'>run.x?weatherId=${weather.id}</a></li>
+<li>Run Sensation: ${weather.run.runSensation} <a href='run.x?weatherId=${weather.id}'>View</a></li>
 </ul>
+<br><br>
+<a href="history.x?zip=${weather.location.zip}">History</a>
